@@ -1,0 +1,60 @@
+
+index.message=Coloque o seu site aqui
+index.admin=Esse é o menu de administração
+index.list=Esse é o roadmap
+
+responsible.title=Responsável
+responsible.name=Nome
+responsible.email=Email
+
+project.title=Projeto
+project.name=Nome
+project.description=Descrição
+
+task.title=Tarefa
+task.name=Nome
+task.projectId=Projeto
+
+plan.title=Plano
+plan.name=Nome
+plan.responsible=Responsável
+plan.task=Tarefa
+plan.date=Data de entrega
+plan.priority=Prioridade
+plan.status=Status 
+
+roadmap.title=JRoadmap!
+roadmap.sortBy=Orderna por 	
+roadmap.task=Tarefa
+roadmap.priority=Prioridade
+roadmap.responsible=Responsável
+roadmap.status=Status
+roadmap.releaseDate=Entrega
+
+global.submit=Ok
+global.add=Adicionar
+global.update=Atualizar
+global.delete=Remover
+global.noRows=Nada armazenado
+
+menu.link1=Responsável
+menu.href1=/jroadmap/responsible.mtw
+menu.link2=Projeto
+menu.href2=/jroadmap/project.mtw
+menu.link3=Tarefa
+menu.href3=/jroadmap/task.mtw
+menu.link4=Plano
+menu.href4=/jroadmap/plan.mtw
+menu.link5=Roadmap
+menu.href5=/jroadmap/roadmap.mtw
+
+error.title=Erro Interno do Servidor
+error.message=Mensagem de Erro
+error.exception=Exception
+error.exceptionDetails=Stack Trace
+  
+about.title=Sobre o JRoadmap
+about.desc=O JRoadmap é um software para criação de um diagrama geral de \
+ planejamento (Roadmaps), disponível em inglês e português.  
+about.powered=O JRoadmap usa <a href="http://www.mysql.com">MySQL</a> para armazenar os seus dados com <a href="http://www.hibernate.org">Hibernate</a> e \
+ todo o resto da aplicação é feita com o framework MVC <a href="http://www.java.com">Java</a> <a href="http://www.mentaframework.org">Mentawai</a> .

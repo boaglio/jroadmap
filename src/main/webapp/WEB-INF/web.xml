@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="web-app_1" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+
+ <display-name>JRoadmap</display-name>
+ <description>JRoadmap - Simple Java Roadmap Maker</description>
+
+   <!-- Mentawai Debug Mode -->
+   <filter>
+    <filter-name>debugMode</filter-name>
+     <filter-class>
+       org.mentawai.util.DebugServletFilter
+     </filter-class>
+   </filter>
+
+   <!-- Map the filter to a file extension -->
+   <filter-mapping>
+    <filter-name>debugMode</filter-name>
+    <url-pattern>*.mtw</url-pattern>
+   </filter-mapping>
+
+    <!-- The Mentawai controller -->
+    <servlet>
+      <servlet-name>Controller</servlet-name>
+      <servlet-class>org.mentawai.core.Controller</servlet-class>
+      <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- mentawai mtw -->
+    <servlet-mapping>
+      <servlet-name>Controller</servlet-name>
+      <url-pattern>*.mtw</url-pattern>
+    </servlet-mapping>
+
+    <!-- Indice do Site -->
+    <welcome-file-list>
+      <welcome-file>index.jsp</welcome-file>
+     </welcome-file-list>
+
+     <!-- pagina de erro interno - 500 -->
+     <error-page>
+       <error-code>500</error-code>
+       <location>/jroadmap/internalError.jsp</location>
+     </error-page>
+
+</web-app>

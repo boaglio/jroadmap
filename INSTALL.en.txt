@@ -1,0 +1,19 @@
+----------------------------------
+ JRoadmap - a simple Roadmap maker
+ ---------------------------------
+
+  Installation guide:
+
+  1 - Setup your database:
+
+   Create the jroadmap database with "jroadmap.sql" script.
+
+  2 - Setup hibernate.cfg.xml with the correct user/password
+
+  3 - Install the Java application on your Servlet container (requires Java 5).
+
+   If you want to make a WAR package install Maven (http://maven.apache.org) and
+   type: "mvn compile war:war"
+
+   If you want to use eclipse WTP type: "mvn eclipse:eclipse -Dwtpversion=1.5"
+

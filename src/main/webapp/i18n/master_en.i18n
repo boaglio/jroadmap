@@ -1,0 +1,59 @@
+
+index.message=Put your website here
+index.admin=this is the admin menu
+index.list=this is the roadmap link
+
+responsible.title=Responsible
+responsible.name=Name
+responsible.email=Email
+
+project.title=Project
+project.name=Name
+project.description=Description
+
+task.title=Task
+task.name=Name
+task.projectId=Project
+
+plan.title=Plan
+plan.name=Name
+plan.responsible=Responsible
+plan.task=Task
+plan.date=Due Date  
+plan.priority=Priority
+plan.status=Status 
+
+roadmap.title=JRoadmap!
+roadmap.sortBy=Sort by	
+roadmap.task=Task
+roadmap.priority=Priority
+roadmap.responsible=Responsible
+roadmap.status=Status
+roadmap.releaseDate=Due Date
+
+global.submit=Ok
+global.add=Add
+global.update=Update
+global.delete=Delete
+global.noRows=Nothing stored
+
+menu.link1=Responsible
+menu.href1=/jroadmap/responsible.mtw
+menu.link2=Project
+menu.href2=/jroadmap/project.mtw
+menu.link3=Task
+menu.href3=/jroadmap/task.mtw
+menu.link4=Plan
+menu.href4=/jroadmap/plan.mtw
+menu.link5=Roadmap
+menu.href5=/jroadmap/roadmap.mtw
+
+error.title=Internal Server Error
+error.message=Error Message
+error.exception=Exception
+error.exceptionDetails=Stack Trace
+
+about.title=About JRoadmap
+about.desc=JRoadmap is a roadmap maker software available in Portuguese and English.  
+about.powered=JRoadmap uses MySQL to store it's data running  Hibernate and \
+ everything else runs Java MVC framework <a href="http://www.mentaframework.org">Mentawai</a> .

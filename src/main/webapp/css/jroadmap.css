@@ -1,0 +1,232 @@
+
+/* CSS MENU */
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.basictab{
+padding: 3px 0;
+margin-left: 0;
+font: bold 12px Verdana;
+border-bottom: 1px solid gray;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.basictab li{
+display: inline;
+margin: 0;
+}
+
+.basictab li a{
+text-decoration: none;
+padding: 3px 7px;
+margin-right: 3px;
+border: 1px solid gray;
+border-bottom: none;
+background-color: #f6ffd5;
+color: #2d2b2b;
+}
+
+.basictab li a:visited{
+color: #2d2b2b;
+}
+
+.basictab li a:hover{
+background-color: #DBFF6C;
+color: black;
+}
+
+.basictab li a:active{
+color: black;
+}
+
+.basictab li.selected a{ /*selected tab effect*/
+position: relative;
+top: 1px;
+padding-top: 4px;
+background-color: #DBFF6C;
+color: black;
+}
+
+/* Roadmap Page */
+
+html, body {
+        font: 80%/130% Verdana, Arial, Helvetica, sans-serif;
+        margin:0px; 
+        padding:5px;
+}
+
+ h2, h3, h4, h5, h6, p, pre, blockquote,
+label, ul, ol, dl, fieldset, address {
+        margin: 1em 0;
+}
+
+.jroadmapH {
+ letter-spacing:1px;
+ background-color:#FFF;
+ border: 0;
+ padding:10px;
+}
+ 
+h1 {
+ letter-spacing:5px;
+ border:4px dotted #b0b0b0;
+ padding:15px;
+ text-align:center;
+ width: 500px;
+ margin:0px auto; 
+}
+
+#Content {
+ width:600px;
+ margin:0px auto;
+ text-align:left;
+ padding:15px;
+ border:1px dashed #333;
+ background-color:#eee;
+}
+
+#ContentRoadmap {
+ width:800px;
+ margin:0px auto;
+ text-align:left;
+ padding:15px;
+ border:1px dashed #333;
+ background-color:#eee;
+}
+.releaseDate {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 8px;
+ color: #0000FF; 
+}
+
+.responsible {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ color: #0C0C0C;
+}
+
+.priority {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ color: #FF0000; 
+}
+
+.task {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: #000000; 
+}
+
+.status {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ font-style: bold;
+ color: #FF0000; 
+}
+	
+table th td  {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ color: #FF0000;
+}
+
+*:link, *:visited {
+ color:inherit;
+ text-decoration:none;
+ font-weight: bold; 
+}
+a:hover {
+ color:#993333;
+ font-size:105%;
+}
+
+*:focus {
+ outline-color:invert;
+ outline-style:none;
+ outline-width:medium;
+}
+
+.jroadmap {
+background-color:#D1EC4C;
+border:2px outset #D1EC4C;
+color:black;
+font-family:"Lucida Grande","Trebuchet MS",Verdana,Helvetica,sans-serif;
+font-size:90%;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+padding:1px 4px;
+text-decoration:none;
+}
+ 
+.jroadmap {
+background-color:#EBE587;
+border-color:#EBE587;
+margin-left:6px;
+}
+
+.jroadmap:hover {
+background-color:#E3F48E;
+border-style:inset;
+color:black;
+padding:2px 3px 0pt 5px;
+}
+
+.jroadmap:active {
+color:black;
+}
+
+.jroadmap:hover {
+background-color:#F4F1BC;
+}
+
+/* Form */
+
+.c {
+ text-align:center; 
+}
+div.crud {
+ width: 500px; 
+ background-color: #f0f0f0;
+ border: 1px dotted #333; 
+ padding: 5px;
+ margin: 0px auto
+}
+div.row {
+  clear: both;
+  padding-top: 10px;
+  }
+
+div.row span.label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  }
+
+div.row span.formw {
+  float: right;
+  width: 335px;
+  text-align: left;
+  } 
+
+#navlist
+{
+padding-left: 0;
+margin-left: 0;
+border-bottom: 1px solid gray;
+width: 100%;
+}
+
+#navlist li
+{
+list-style: none;
+margin: 0;
+padding: 0.25em;
+border-top: 1px solid gray;
+}
+
+#navlist li a { text-decoration: none; }

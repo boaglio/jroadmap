@@ -1,0 +1,8 @@
+ instalar dependencias do Maven:
+
+ Mentawai:
+ mvn install:install-file -DgroupId=mentawai -DartifactId=mentawai  -Dversion=1.8.0 -Dpackaging=jar -Dfile=lib/mentawai.jar  -DgeneratePom -DcreateChecksum
+ 
+ JTA (http://java.sun.com/products/jta/):
+ 
+ mvn install:install-file -Dfile=jta-1_0_1B-classes.zip -DgroupId=javax.transaction -DartifactId=jta -Dversion=1.0.1B -Dpackaging=jar

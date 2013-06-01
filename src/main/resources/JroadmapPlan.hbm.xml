@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class table="jroadmap_plan" name="com.boaglio.jroadmap.model.vo.PlanVO">
+		<id name="id" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="releaseDate" column="release_date"/>
+		<many-to-one name="task" column="task_id" class="com.boaglio.jroadmap.model.vo.TaskVO" cascade="none" />
+        <many-to-one name="responsible" column="responsible_id" class="com.boaglio.jroadmap.model.vo.ResponsibleVO" cascade="none" />
+        <property name="priority" column="priority"/>
+        <property name="status" column="status"/>
+	</class>
+</hibernate-mapping>  
